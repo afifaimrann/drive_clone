@@ -9,7 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        brand: {},
+        brand: {
+          '100': '#EA6365',
+          DEFAULT: '#FA7275',
+        },
       },
     },
   },
